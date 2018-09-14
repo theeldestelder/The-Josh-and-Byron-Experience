@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SystemConfig version="16">
+  <Identity>26c1c9f6-bb8c-4c39-b6d3-f478cece4f92</Identity>
+  <AllowFilterEvaluation>true</AllowFilterEvaluation>
+  <DefaultUpdateInterval>50</DefaultUpdateInterval>
+  <Channels>
+    <Channel id="938c7789-0c3c-4b84-85c2-49199d0b2ce4" name="Arch" />
+    <Channel id="0a93e0ee-5ff1-41b3-b7c6-4365a2056b59" name="Megatree S1" />
+    <Channel id="e3fb45f1-fa20-4ba6-a513-84decfc38baa" name="Megatree S2" />
+    <Channel id="2e17e902-34c0-4895-9e8b-c1473830e91b" name="Megatree S3" />
+    <Channel id="a893cfe1-18bc-4c7e-8ec0-b62917c5c5a9" name="Megatree S4" />
+    <Channel id="37148dc7-2e0c-4341-b2c5-d9f0ba8d061f" name="Megatree S5" />
+    <Channel id="dd071dc1-660a-481e-a322-617ab04cef64" name="Megatree S6" />
+    <Channel id="2498f37a-9479-4823-85e1-c30f1da905e7" name="Megatree S7" />
+    <Channel id="2cfa8e03-1c8e-430e-9416-7e024b39776b" name="Megatree S8" />
+    <Channel id="5fc6c9a6-16d9-4407-9ee7-e877ab242157" name="Megatree S9" />
+    <Channel id="f97fb27f-b76d-452d-a4ed-f3bf8ca22438" name="Megatree S10" />
+    <Channel id="bc77e6e2-788d-42eb-b750-81debfca6ee2" name="Megatree S11" />
+    <Channel id="73665963-b47f-4639-9c74-c02369b1a1e3" name="Megatree S12" />
+    <Channel id="35df4deb-4429-4ce7-ab20-1adcb845dba4" name="Megatree S13" />
+    <Channel id="e24eec17-b383-436e-a5ea-607af149e929" name="Megatree S14" />
+    <Channel id="ff2f2f44-9c38-474b-915d-541a16759fa4" name="Megatree S15" />
+    <Channel id="ab1cc8bc-ae49-4a1a-8f72-a88028da4507" name="Megatree S16" />
+    <Channel id="d8912c5a-ffa1-490f-a5fc-bacf63de244b" name="Megatree S17" />
+    <Channel id="b91aecac-524b-4f3c-a23a-aa1b6a0aec66" name="Megatree S18" />
+    <Channel id="a70d117f-3ec9-4637-a8ad-521572bb251a" name="Megatree S19" />
+    <Channel id="72578288-ccca-4126-b8fe-913b690e1457" name="Megatree S20" />
+    <Channel id="45f0b2d9-1edc-4e6f-8ef6-afaea390b869" name="Megatree S21" />
+    <Channel id="4950a3ba-f094-4fe2-9fe3-fb97937feaa6" name="Megatree S22" />
+    <Channel id="809d9fee-e7fe-4f91-a4ca-cbc8b1d05e66" name="Megatree S23" />
+    <Channel id="cb58e846-6e64-4784-be82-c30fa58a989b" name="Megatree S24" />
+    <Channel id="4b1f33ac-4c0d-41e8-b9f6-90f6e30330b1" name="Megatree S25" />
+    <Channel id="5a9f7d94-9d58-46e6-b96d-e001bc327b19" name="Megatree S26" />
+    <Channel id="373f425d-ca78-4f71-9c26-b1c4908dfe8c" name="Megatree S27" />
+    <Channel id="7364d34a-bd20-490d-93f2-af1df1cd64e4" name="Megatree S28" />
+    <Channel id="c156ca36-a684-4ec1-bd51-3a5428e3611f" name="Megatree S29" />
+    <Channel id="318f7e74-5478-4ce1-9a56-31e4d2a67187" name="Megatree S30" />
+    <Channel id="e95972fb-c266-415f-81a8-b13dddd8c0e6" name="Megatree S31" />
+    <Channel id="dd987629-8569-4397-a9b0-59b7b5c338ab" name="Megatree S32" />
+    <Channel id="9f931abd-086d-4d1e-a7a6-c608bce0d3c2" name="Megatree S33" />
+    <Channel id="db950a87-1203-4a77-a16a-be06593464ad" name="Megatree S34" />
+    <Channel id="2473ff2f-1a99-4421-9630-c6b0cd39fe3e" name="Megatree S35" />
+    <Channel id="19f66ff5-fd80-4c13-bd99-549fe54f2c89" name="Megatree S36" />
+    <Channel id="b6f0759b-bf1d-4120-8ca5-21b07174bf17" name="Megatree S37" />
+    <Channel id="5b4d1631-3ae4-4bd7-b769-3367b33cfece" name="Megatree S38" />
+    <Channel id="7d9bbb96-0248-4bb4-bac1-9c5c58163417" name="Megatree S39" />
+    <Channel id="708f39f3-7c7c-4d33-ae1f-64076002d0c6" name="Megatree S40" />
+  </Channels>
+  <Nodes>
+    <Node name="Arch" id="daeb3efb-bbee-45e0-9418-394d1f3b159f" channelId="938c7789-0c3c-4b84-85c2-49199d0b2ce4">
+      <Properties>
+        <Property typeId="3fb53423-dd2a-4719-b3e3-19aa6f062f62" instanceId="f6e09f54-e4f4-47a3-a92c-18cfd19de78e" />
+      </Properties>
+    </Node>
+    <Node name="Megatree" id="56c84e6b-5e20-4f23-8bf8-21a817251f94">
+      <Node name="Megatree S1" id="78aa7810-98e2-4d2c-9aca-81f83d2bcc15" channelId="0a93e0ee-5ff1-41b3-b7c6-4365a2056b59" />
+      <Node name="Megatree S2" id="59d0f70e-bde1-410d-a962-0e85e8ddc349" channelId="e3fb45f1-fa20-4ba6-a513-84decfc38baa" />
+      <Node name="Megatree S3" id="348f3e46-6301-44bc-b043-56e0eaa931ef" channelId="2e17e902-34c0-4895-9e8b-c1473830e91b" />
+      <Node name="Megatree S4" id="7dd23d1c-f715-4dd7-bacb-b61fd0769ad7" channelId="a893cfe1-18bc-4c7e-8ec0-b62917c5c5a9" />
+      <Node name="Megatree S5" id="f79c4251-4144-442f-9d91-a8b5e8f36cb0" channelId="37148dc7-2e0c-4341-b2c5-d9f0ba8d061f" />
+      <Node name="Megatree S6" id="aace129e-c1b4-43fa-a0b8-becda1deb719" channelId="dd071dc1-660a-481e-a322-617ab04cef64" />
+      <Node name="Megatree S7" id="be9cf1fe-dd90-44fd-b2f6-b03551ffdc86" channelId="2498f37a-9479-4823-85e1-c30f1da905e7" />
+      <Node name="Megatree S8" id="2b19022e-7885-4f18-8fdf-24f41415b2df" channelId="2cfa8e03-1c8e-430e-9416-7e024b39776b" />
+      <Node name="Megatree S9" id="27204824-33ba-482d-b5bb-64aa34ca9082" channelId="5fc6c9a6-16d9-4407-9ee7-e877ab242157" />
+      <Node name="Megatree S10" id="bf5512b6-75e0-4e14-aeff-f69f5102ebc2" channelId="f97fb27f-b76d-452d-a4ed-f3bf8ca22438" />
+      <Node name="Megatree S11" id="9714a2ea-8943-4111-9185-7dce4417d1b3" channelId="bc77e6e2-788d-42eb-b750-81debfca6ee2" />
+      <Node name="Megatree S12" id="b918ffc9-e3ab-4c9e-b203-b3053152b1bd" channelId="73665963-b47f-4639-9c74-c02369b1a1e3" />
+      <Node name="Megatree S13" id="e239c59c-b8ec-4ced-ba57-73ba03273ca6" channelId="35df4deb-4429-4ce7-ab20-1adcb845dba4" />
+      <Node name="Megatree S14" id="1752b554-aefe-4446-b5c6-424256f01c50" channelId="e24eec17-b383-436e-a5ea-607af149e929" />
+      <Node name="Megatree S15" id="22e982dd-a92f-43a5-96ec-e8f7b918e56d" channelId="ff2f2f44-9c38-474b-915d-541a16759fa4" />
+      <Node name="Megatree S16" id="1a9ba18e-01ba-42cd-8457-98d78f323b13" channelId="ab1cc8bc-ae49-4a1a-8f72-a88028da4507" />
+      <Node name="Megatree S17" id="fd53f8da-a5bf-436d-be9a-ae45b9562799" channelId="d8912c5a-ffa1-490f-a5fc-bacf63de244b" />
+      <Node name="Megatree S18" id="274adab4-26cb-4ad4-b6c9-745227df689f" channelId="b91aecac-524b-4f3c-a23a-aa1b6a0aec66" />
+      <Node name="Megatree S19" id="a47659e1-e2a2-4936-beca-b8b5cba627fa" channelId="a70d117f-3ec9-4637-a8ad-521572bb251a" />
+      <Node name="Megatree S20" id="dcb7ffea-75d5-4714-b162-07de65611fdc" channelId="72578288-ccca-4126-b8fe-913b690e1457" />
+      <Node name="Megatree S21" id="29781616-3116-41da-b1f4-0e847301fc5a" channelId="45f0b2d9-1edc-4e6f-8ef6-afaea390b869" />
+      <Node name="Megatree S22" id="ddfc6b38-57da-4ec7-9bbf-367784f4f677" channelId="4950a3ba-f094-4fe2-9fe3-fb97937feaa6" />
+      <Node name="Megatree S23" id="538d49ab-4efe-4eb9-bf8b-b7688262b445" channelId="809d9fee-e7fe-4f91-a4ca-cbc8b1d05e66" />
+      <Node name="Megatree S24" id="6d621691-7637-48c7-a459-fb55f541b5c1" channelId="cb58e846-6e64-4784-be82-c30fa58a989b" />
+      <Node name="Megatree S25" id="0dad8621-d65d-4c14-a73e-c9fedb8dc1df" channelId="4b1f33ac-4c0d-41e8-b9f6-90f6e30330b1" />
+      <Node name="Megatree S26" id="13647f39-2f8d-4552-bd86-9299aad4789f" channelId="5a9f7d94-9d58-46e6-b96d-e001bc327b19" />
+      <Node name="Megatree S27" id="86c71e08-bbad-41b7-93b5-fc07308d5191" channelId="373f425d-ca78-4f71-9c26-b1c4908dfe8c" />
+      <Node name="Megatree S28" id="b484c156-01c5-4090-be09-e7ec771927b8" channelId="7364d34a-bd20-490d-93f2-af1df1cd64e4" />
+      <Node name="Megatree S29" id="e67686b7-90d7-4c8f-b168-6c8dbe9f7f74" channelId="c156ca36-a684-4ec1-bd51-3a5428e3611f" />
+      <Node name="Megatree S30" id="bff0d4b3-e406-463a-9261-bbca7472398e" channelId="318f7e74-5478-4ce1-9a56-31e4d2a67187" />
+      <Node name="Megatree S31" id="4a938037-cf4d-4ee0-98d7-0a3c481ae58d" channelId="e95972fb-c266-415f-81a8-b13dddd8c0e6" />
+      <Node name="Megatree S32" id="471a240b-ba17-4b20-9369-4416eb7e505b" channelId="dd987629-8569-4397-a9b0-59b7b5c338ab" />
+      <Node name="Megatree S33" id="f8d0b869-2de3-451a-847b-f9489eab07e7" channelId="9f931abd-086d-4d1e-a7a6-c608bce0d3c2" />
+      <Node name="Megatree S34" id="20d65872-41f7-4ebf-a1d3-ebfcb448815d" channelId="db950a87-1203-4a77-a16a-be06593464ad" />
+      <Node name="Megatree S35" id="3f726bec-a903-4c3d-916e-def9d02090e6" channelId="2473ff2f-1a99-4421-9630-c6b0cd39fe3e" />
+      <Node name="Megatree S36" id="6cf801fd-d7fa-4294-86ab-5ed874435ce4" channelId="19f66ff5-fd80-4c13-bd99-549fe54f2c89" />
+      <Node name="Megatree S37" id="4b977b58-9487-47d2-8162-20126532c4fc" channelId="b6f0759b-bf1d-4120-8ca5-21b07174bf17" />
+      <Node name="Megatree S38" id="262a3d66-2885-426d-95a0-06c8fdb68263" channelId="5b4d1631-3ae4-4bd7-b769-3367b33cfece" />
+      <Node name="Megatree S39" id="a2c2ed85-825f-4d4a-afe8-f62dcc4d33d3" channelId="7d9bbb96-0248-4bb4-bac1-9c5c58163417" />
+      <Node name="Megatree S40" id="e8806daa-6cb2-4f7d-bb18-130dad1eed62" channelId="708f39f3-7c7c-4d33-ae1f-64076002d0c6" />
+    </Node>
+  </Nodes>
+  <Controllers />
+  <Previews>
+    <Preview name="Vixen Display Preview" typeId="f43c31bc-cfcd-4dbc-adb7-d349c9ec623d" instanceId="c33b46c6-1a07-4274-b74b-a533102ae62f" />
+  </Previews>
+  <Filters />
+  <Patches />
+  <DisabledDevices />
+</SystemConfig>
