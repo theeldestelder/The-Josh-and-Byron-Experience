@@ -19,13 +19,14 @@ input {
     height: calc(100vh - 115px);
     flex-direction: column;
     display:flex;
+    overflow-x: hidden;
 }
 .sidenav button {
     border-color: white;
 }
 
 .sidenav a:hover, .dropdown-btn:hover {
-    color: #6dae44;
+    color: #247dff;
 }
 
 
@@ -143,6 +144,7 @@ button {
     align-items: center; /* vertical centering */
     height: 100vh;
     margin: 0; 
+    overflow-y: hidden;
 }
 
 
