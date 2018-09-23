@@ -152,3 +152,33 @@ button {
 .active {
     color: #6dae44;
 }
+
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #247dff;
+    border: 1px solid #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+tr:hover {
+    background-color: #ffffff;
+}
+
+ table {
+    border-collapse: collapse;
+    width: 100%;
+ }
+
+.input {
+    background: none;
+    border: none;
+    color:black;
+    border-bottom: solid 2px #474544;
+    background-color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding:  10px;
+}
+

@@ -2,11 +2,32 @@
 <html>
 
 <link href="../css/style.css" rel="stylesheet" id="style" />
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
 
 <body>
-    <span class="headertext"> Show </span>
+    <span class="headertext">Show</span>
     <br>
     <br>
-</body>
 
+    <table id="table">
+        <thead>
+            <caption>Select the files you want to update:</caption>
+                <tr>
+                    <th onclick="sortTableCheckbox(0)">Selected</th>
+                    <th onclick="sortTable(1)">Name</th>
+                    <th onclick="sortTable(2)">item2</th>
+                    <th onclick="sortTable(3)">item3</th>
+                </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+    <button id='addShow'>Add Show</button>
+</body>
+    <script type="text/javascript" src="../js/addShow.js"></script>
+    <script>
+        const button = document.getElementById('addShow');
+        button.onclick = function () {popWindow()};
+    </script> 
 </html>

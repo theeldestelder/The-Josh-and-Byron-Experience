@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<link href="../css/style.css" rel="stylesheet" id="style" />
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+
+<body>
+    <span class="headertext">Shows</span>
+    <br>
+    <br>
+
+    <p id="noShows" style="display: none">
+        There are no shows to display.  Create one
+    </p>
+    <table id="table" style="display: none">
+        <thead>
+            <caption>Select the files you want to update:</caption>
+            <tr>
+                <th onclick="sortTableCheckbox(0)">Selected</th>
+                <th onclick="sortTable(1)">Name</th>
+                <th onclick="sortTable(2)">item2</th>
+                <th onclick="sortTable(3)">item3</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+    <button id='addShow'>Add Show</button>
+</body>
+    <script type="text/javascript" src="../js/addShow.js"></script>
+    <script>
+        const button = document.getElementById('addShow');
+        button.onclick = function () {popWindow()};
+
+        var fs = parent.require('fs');
+        var path = parent.require('path');
+
+        var appConfigPath = path.join(parent.__dirname, './config/shows.json');
+        var appConfig = JSON.parse(fs.readFileSync(appConfigPath));
+
+        var activeShow = appConfig.activeShow;
+        var shows = appConfig.shows;
+
+        if (shows === "") {
+            document.getElementById("noShows").style.display = "block";
+        } else {
+            document.getElementById("table").style.display = "block"; 
+        }
+
+    </script>
+</html>
